@@ -1,5 +1,4 @@
 import time
-from keep_alive import keep_alive
 from selenium import webdriver
 import pickle
 
@@ -79,7 +78,7 @@ def start():
             print(e)
 
 
-keep_alive()
+
 while True:
     try:
         start()
